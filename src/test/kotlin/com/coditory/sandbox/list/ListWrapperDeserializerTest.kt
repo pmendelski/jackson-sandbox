@@ -15,7 +15,7 @@ class ListWrapperDeserializerTest {
             }
             """
         val result = JsonMapper.parseJson(input, ListWrapper::class.java)
-        val expected = ListWrapper(listOf(1, 3, 5))
+        val expected = ListWrapper(Integer::class.java, listOf(1 as Integer, 3 as Integer, 5 as Integer))
         assertEquals(expected, result)
     }
 
@@ -32,7 +32,7 @@ class ListWrapperDeserializerTest {
             }
             """
         val result = JsonMapper.parseJson(input, ListWrapper::class.java)
-        val expected = ListWrapper(listOf(Value("X"), Value("Y")))
+        val expected = ListWrapper(Value::class.java, listOf(Value("X"), Value("Y")))
         assertEquals(expected, result)
     }
 
@@ -50,7 +50,7 @@ class ListWrapperDeserializerTest {
             }
             """
         val result = JsonMapper.parseJson(input, ListWrapper::class.java)
-        val expected = ListWrapper(listOf(IfaceValueA("A"), IfaceValueB("B"), IfaceValueA("C")))
+        val expected = ListWrapper(IfaceValue::class.java, listOf(IfaceValueA("A"), IfaceValueB("B"), IfaceValueA("C")))
         assertEquals(expected, result)
     }
 }

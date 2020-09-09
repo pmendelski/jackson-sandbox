@@ -28,6 +28,7 @@ dependencies {
     implementation("com.fasterxml.jackson.module:jackson-module-kotlin:${Versions.jackson}")
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jdk8:${Versions.jackson}")
     implementation("com.fasterxml.jackson.datatype:jackson-datatype-jsr310:${Versions.jackson}")
+    testImplementation("org.skyscreamer:jsonassert:1.5.0")
     testImplementation("org.junit.jupiter:junit-jupiter-api:${Versions.junit}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${Versions.junit}")
 }
