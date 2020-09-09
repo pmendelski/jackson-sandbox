@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.coditory.sandbox.list.ListWrapperDeserializerTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-09-09T09:37:52" hostname="polpc05531" time="0.904">
+  <properties/>
+  <testcase name="should deserialize list of objects()" classname="com.coditory.sandbox.list.ListWrapperDeserializerTest" time="0.834"/>
+  <testcase name="should deserialize list of primitives()" classname="com.coditory.sandbox.list.ListWrapperDeserializerTest" time="0.01"/>
+  <testcase name="should deserialize list of hierarchical objects()" classname="com.coditory.sandbox.list.ListWrapperDeserializerTest" time="0.058"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
