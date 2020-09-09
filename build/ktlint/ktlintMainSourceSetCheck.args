@@ -1,7 +1,0 @@
---reporter=plain
---color
---reporter=plain,output=/Users/pawel.mendelski/Development/java/jackson-sandbox/build/reports/ktlint/ktlintMainSourceSetCheck/ktlintMainSourceSetCheck.txt
-"src/main/kotlin/com/coditory/sandbox/list/IfaceValue.kt"
-"src/main/kotlin/com/coditory/sandbox/list/ListWrapper.kt"
-"src/main/kotlin/com/coditory/sandbox/list/ListWrapperDeserializer.kt"
-"src/main/kotlin/com/coditory/sandbox/list/Value.kt"

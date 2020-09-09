@@ -1,5 +1,0 @@
---reporter=plain
---color
---reporter=plain,output=/Users/pawel.mendelski/Development/java/jackson-sandbox/build/reports/ktlint/ktlintTestSourceSetCheck/ktlintTestSourceSetCheck.txt
-"src/test/kotlin/com/coditory/sandbox/base/JsonMapper.kt"
-"src/test/kotlin/com/coditory/sandbox/list/ListWrapperDeserializerTest.kt"

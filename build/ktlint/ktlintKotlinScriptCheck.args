@@ -1,4 +1,0 @@
---reporter=plain
---color
---reporter=plain,output=/Users/pawel.mendelski/Development/java/jackson-sandbox/build/reports/ktlint/ktlintKotlinScriptCheck/ktlintKotlinScriptCheck.txt
-"build.gradle.kts"
